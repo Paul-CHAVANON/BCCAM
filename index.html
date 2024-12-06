@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCCAM - Solutions Innovantes</title>
+    <style>
+        /* Styles CSS améliorés */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #fff; /* Couleur par défaut du texte */
+            background: url('Plan.png') no-repeat center center/cover;
+            background-attachment: fixed; /* Effet parallaxe */
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(1, 8, 28, 0.9); /* Couleur avec transparence */
+            color: white;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo img {
+            max-width: 60px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        nav ul li {
+            padding: 8px 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li:hover {
+            background: #1ABC9C;
+            border-radius: 5px;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Prend toute la hauteur de l'écran */
+            background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 4em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+        }
+
+        .hero a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #1ABC9C;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+
+        .hero a:hover {
+            background: #16A085;
+        }
+
+        .section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: auto;
+            color: white; /* Texte en blanc */
+            margin-bottom: 20px;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.6); /* Contour blanc semi-transparent */
+            background: transparent; /* Fond transparent */
+        }
+
+        .section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #fff; /* Titre également en blanc */
+        }
+
+        .section p {
+            text-align: justify;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            background: transparent; /* Fond transparent */
+            border: 2px solid rgba(255, 255, 255, 0.6); /* Contour blanc semi-transparent */
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            color: white; /* Texte en blanc */
+        }
+
+        .card h3 {
+            color: #fff; /* Titre en blanc */
+        }
+
+        footer {
+            background: rgba(44, 62, 80, 0.9);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #1ABC9C;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image.png" alt="Logo BCCAM">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Bienvenue chez BCCAM</h1>
+        <p>Des solutions technologiques modernes et performantes.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>À propos de BCCAM</h2>
+        <p>BCCAM est une entreprise spécialisée dans les solutions technologiques pour les entreprises. Forts de notre expérience, nous aidons nos clients à atteindre leurs objectifs grâce à des solutions adaptées et innovantes.</p>
+        <p>Nos domaines d'expertise incluent la gestion de réseau, la cybersécurité, et les services cloud. Nous mettons un point d'honneur à comprendre vos besoins pour vous proposer des solutions personnalisées.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Nos Services</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Création de sites web</h3>
+                <p>Des sites internet modernes, optimisés pour le référencement, et adaptés à votre image de marque.</p>
+            </div>
+            <div class="card">
+                <h3>Gestion de réseau</h3>
+                <p>Installation et maintenance de vos infrastructures réseau, avec un focus sur la sécurité et la performance.</p>
+            </div>
+            <div class="card">
+                <h3>Solutions cloud</h3>
+                <p>Mise en place et gestion de solutions cloud pour assurer la continuité et la flexibilité de vos opérations.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contactez-nous</h2>
+        <p>Vous souhaitez en savoir plus sur nos services ? Contactez-nous dès maintenant :</p>
+        <p><strong>Email :</strong> contact@bccam.fr</p>
+        <p><strong>Téléphone :</strong> 01 23 45 67 89</p>
+        <p><strong>Adresse :</strong> 2 rue du Clery, Paris 75002</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BCCAM - Tous droits réservés.</p>
+        <p><a href="#about">Retour en haut</a></p>
+    </footer>
+</body>
+</html>
