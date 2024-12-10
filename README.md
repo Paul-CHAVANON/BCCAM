@@ -1,7 +1,8 @@
-# test-web
-Ce repository, permet de pull un site web de test rapidement.
+# Site BCCAM
+Ce repository, héberge le site d'une entrperise de prestation informatique.
 
 
+# Comment l'installer chez vous
 Dans votre dossier dédié au projet, installer un serveur WEB </br>
 Installer docker puis entrer le config du docker compose comme suit
 ```
