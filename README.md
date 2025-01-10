@@ -1,6 +1,6 @@
 # Site BCCAM
 Ce repository, héberge le site d'une entrperise de prestation informatique.
-BCCAM est projet étudiant, permetant de contextuatliser un ou plusieurs projets pour compléter les critères d'évaluations
+BCCAM est projet étudiant, permettant de contextuatliser un ou plusieurs projets pour compléter les critères d'évaluations
 
 
 # Comment l'installer chez vous
