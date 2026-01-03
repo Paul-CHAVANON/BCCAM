@@ -1,3 +1,6 @@
+# Projet soumis à licence
+Voir fichier LICENSE
+
 # Site BCCAM
 Ce repository, héberge le site d'une entrperise de prestation informatique.
 BCCAM est un projet étudiant, permettant de contextualiser un ou plusieurs projets pour compléter les critères d'évaluation
